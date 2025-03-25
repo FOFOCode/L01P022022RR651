@@ -1,0 +1,60 @@
+--Inserts por si no tiene
+
+-- Insertar en la tabla facultades
+INSERT INTO facultades (facultad) VALUES 
+('Facultad de Ingeniería'),
+('Facultad de Ciencias'),
+('Facultad de Humanidades'),
+('Facultad de Medicina'),
+('Facultad de Economía'),
+('Facultad de Arquitectura'),
+('Facultad de Derecho'),
+('Facultad de Artes');
+
+-- Insertar en la tabla materias
+INSERT INTO materias (materia, unidades_valorativas, estado) VALUES 
+('Matemáticas Avanzadas', 4, 'A'),
+('Programación en C#', 3, 'A'),
+('Física General', 4, 'A'),
+('Historia Universal', 2, 'I'),
+('Economía Básica', 3, 'A'),
+('Diseño Arquitectónico', 5, 'A'),
+('Derecho Penal', 4, 'A'),
+('Pintura y Dibujo', 2, 'A'),
+('Inteligencia Artificial', 4, 'A'),
+('Biología Molecular', 4, 'A'),
+('Contabilidad Financiera', 3, 'A'),
+('Estructuras de Datos', 3, 'A'),
+('Anatomía Humana', 5, 'A');
+
+-- Insertar en la tabla departamentos
+INSERT INTO departamentos (departamento) VALUES 
+('Departamento de Ingeniería'),
+('Departamento de Ciencias Básicas'),
+('Departamento de Letras'),
+('Departamento de Medicina'),
+('Departamento de Economía'),
+('Departamento de Arquitectura'),
+('Departamento de Derecho'),
+('Departamento de Artes'),
+('Departamento de Informática'),
+('Departamento de Biología'),
+('Departamento de Contabilidad');
+
+-- Insertar en la tabla alumnos
+INSERT INTO alumnos (codigo, nombre, apellidos, dui, estado) VALUES 
+('A001', 'Juan', 'Pérez', 12345678, 1),
+('A002', 'Ana', 'Gómez', 87654321, 1),
+('A003', 'Carlos', 'Rodríguez', 11223344, 0),
+('A004', 'Sofía', 'Martínez', 44332211, 1),
+('A005', 'Luis', 'Fernández', 55667788, 1),
+('A006', 'Marta', 'López', 99887766, 0),
+('A007', 'Ricardo', 'Torres', 22334455, 1),
+('A008', 'Gabriela', 'Ramírez', 66778899, 1),
+('A009', 'Diego', 'Castro', 77889900, 1),
+('A010', 'Lucía', 'Ortega', 11224466, 0),
+('A011', 'Fernando', 'Guzmán', 33445577, 1),
+('A012', 'Camila', 'Navarro', 88990011, 1),
+('A013', 'Andrés', 'Mejía', 44556677, 1),
+('A014', 'Valeria', 'Mendoza', 55668899, 1),
+('A015', 'Roberto', 'Vargas', 66779900, 1);
